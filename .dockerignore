@@ -1,0 +1,13 @@
+.claude
+.dockerignore
+.git
+.github
+.gitignore
+.golangci.yaml
+.vscode
+
+Dockerfile
+README.md
+LICENSE
+
+*_test.go

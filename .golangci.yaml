@@ -1,0 +1,24 @@
+version: "2"
+linters:
+  default: standard
+  enable:
+    - bodyclose
+    - errorlint
+    - goconst
+    - gocritic
+    - loggercheck
+    - misspell
+    - modernize
+    - nakedret
+    - nilerr
+    - nosprintfhostport
+    - predeclared
+    - reassign
+    - recvcheck
+    - thelper
+    - unconvert
+    - unparam
+    - usestdlibvars
+    - usetesting
+    - wastedassign
+    - whitespace
