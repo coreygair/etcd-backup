@@ -18,15 +18,9 @@ jobs:
   govulncheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: golang/govulncheck-action@v1
         with:
-          persist-credentials: false
-      - uses: actions/setup-go@v6
-        with:
-          go-version: stable
-      - uses: geomys/sandboxed-step@v1.2.1
-        with:
-          run: go run golang.org/x/vuln/cmd/govulncheck@latest ./...
+          go-version-file: go.mod
   test:
     name: go test
     runs-on: ubuntu-latest
