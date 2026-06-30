@@ -10,6 +10,8 @@ and defragmenting the database after snapshotting.
 
 `go install github.com/coreygair/etcd-backup`
 
+Also available as a Docker container: [`coreygair/etcd-backup`](https://hub.docker.com/r/coreygair/etcd-backup)
+
 ## Usage
 
 ```
